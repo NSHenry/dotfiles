@@ -108,9 +108,6 @@ knownrm() {
  fi
 }
 
-# Global Composer
-export PATH="$PATH:$HOME/.composer/vendor/bin"
-
 # Allow Composer to use almost as much RAM as Chrome.
 export COMPOSER_MEMORY_LIMIT=-1
 
